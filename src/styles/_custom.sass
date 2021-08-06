@@ -4,8 +4,19 @@
 .bloque-texto-a.color-primario 
   background-color:#E1E4E6
 
+/*.bloque-texto-a.color-secundario 
+  background-color:#6595bf
+/*.bloque-texto-a.color-secundario:before 
+  background-color: #E1E4E6
+
 .bloque-texto-a:before
   left: 40%
+
+.bloque-texto-a
+  &.reverse
+    &:before
+      left: 0
+      right: 48%
 
 .tarjetas-claras
   .tarjeta
@@ -16,11 +27,14 @@
 
 .fas.fa-chevron-right
   color: #d9a171
+  
 
 
 .tarjeta--azul
-  //background-color: white
-  background-color: #f5f5f538
+  background-color: white
+  border-radius: 0
+  
+    //background-color: #f5f5f538
 
 .tabla-b.color-secundario .tabla-b__header
   background-color: #DCDCDE
@@ -36,4 +50,16 @@
   background-color: white
 
 .cajon.color-acento-contenido 
-  background-color: #fbe7d6
+  background-color: #f5e1d0
+
+.round--number
+  width: 50px
+  height: 50px
+  background-color: white
+  border: 3px solid #6595bf
+  border-radius: 999px
+  p 
+    font-size: 25px
+    font-weight: 800
+    text-align: center
+    padding-top: 3px
