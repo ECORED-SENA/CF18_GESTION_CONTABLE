@@ -400,9 +400,410 @@
         figure
           img.mx-auto(src="@/assets/curso/tema2/img17.svg", alt="imagen ambiental" style='width:460px;')
 
+    h3.mb-4 Cálculo e interpretación de indicadores financieros.
+    p.mb-4 Para calcular los indicadores la empresa Contable SAS presenta la siguiente información, correspondiente a los años 2018 y 2019:
+
+    .row.justify-content-center
+      .col-lg-11
+        .tabla-b.color-secundario.mb-4(style='background-color: #f6f6f6')
+          table
+              thead.tabla-b__header
+                th(colspan='3') Empresa contable SAS <br> Estado de resultados Integral 2019 y 2018
+              tbody
+                tr.text-center
+                  td(style='width: 50%;border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                  th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') 2019
+                  th(style='border-bottom: dashed #5e6178;') 2018
+                tr
+                  th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Ingresos operacionales 
+                  td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                  td.text-end(style='border-bottom: dashed #5e6178;')  
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Ingresos por actividades ordinarias
+                  td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $300.000.000 
+                  td.text-end(style='border-bottom: dashed #5e6178;')  $237.600.000 
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Costo de ventas
+                  td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $189.600.000 
+                  td.text-end(style='border-bottom: dashed #5e6178; ')  $162.000.000 
+                tr
+                  th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad bruta
+                  th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $110.400.000 
+                  th.text-end(style='border-bottom: dashed #5e6178;')  $75.600.000 
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Gastos operacionales
+                  td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                  td.text-end(style='border-bottom: dashed #5e6178;')  
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Gastos de administraci&oacute;n
+                  td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $28.800.000 
+                  td.text-end(style='border-bottom: dashed #5e6178;')  $21.600.000 
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Gastos de ventas 
+                  td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $12.000.000 
+                  td.text-end(style='border-bottom: dashed #5e6178; ')  $13.200.000 
+                tr
+                  th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad operacional
+                  th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $69.600.000 
+                  th.text-end(style='border-bottom: dashed #5e6178; ')  $40.800.000 
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Ingresos no operacionales
+                  td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $2.400.000 
+                  td.text-end(style='border-bottom: dashed #5e6178;')  $3.000.000 
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Gastos financieros
+                  td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $1.200.000 
+                  td.text-end(style='border-bottom: dashed #5e6178; ')  $1.800.000 
+                tr
+                  th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad antes de impuestos
+                  th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $70.800.000 
+                  th.text-end(style='border-bottom: dashed #5e6178; ')  $42.000.000 
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Provisi&oacute;n impuesto de renta
+                  td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $24.072.000 
+                  td.text-end(style='border-bottom: dashed #5e6178;')  $14.280.000
+      
+      .col-lg-11
+        .tabla-b.color-secundario.mb-4(style='background-color: #f6f6f6')
+          table
+            tbody
+              tr(style='border-top: dashed #5e6178;')
+                th(style='width: 50%;border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad l&iacute;quida
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $46.728.000 
+                th.text-end(style='border-bottom: dashed #5e6178;')  $27.720.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Reservas 
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $4.672.800 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $2.772.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad del ejercicio
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $42.055.200 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $ 24.948.000 
+      
+      .col-lg-11
+        .tabla-b.color-secundario.mb-4(style='background-color: #f6f6f6')
+          table
+            tbody
+              tr(style='border-top: dashed #5e6178;')
+                th(style='width: 50%;border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Determinaci&oacute;n del costo de ventas
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') 
+                th.text-end(style='border-bottom: dashed #5e6178;') 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Inventario inicial
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $72.000.000 
+                td.text-end(style='border-bottom: dashed #5e6178; ') $60.000.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') M&aacute;s compras netas
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                td.text-end(style='border-bottom: dashed #5e6178;')  
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Compras de contado
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $55.200.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $54.000.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Compras a cr&eacute;dito
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $148.800.000 
+                td.text-end(style='border-bottom: dashed #5e6178; ')  $120.000.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Igual mercanc&iacute;a disponible
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $276.000.000 
+                td.text-end(style='border-bottom: dashed #5e6178; ')  $234.000.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Menos inventario final de mercanc&iacute;as
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $86.400.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $72.000.000 
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Igual costo de ventas
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $189.600.000 
+                th.text-end(style='border-bottom: dashed #5e6178; ')  $162.000.000 
+      .col-lg-11
+        .tabla-b.color-secundario.mb-5(style='background-color: #f6f6f6')
+          table
+            tbody
+              tr(style='border-top: dashed #5e6178;')
+                th(style='width: 50%;border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Recaudo de cartera
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') 
+                th.text-end(style='border-bottom: dashed #5e6178; ') 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Ventas a crédito
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') $192.000.000 
+                td.text-end(style='border-bottom: dashed #5e6178; ') $144.000.000
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Ventas de contado
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') $108.000.000
+                td.text-end(style='border-bottom: dashed #5e6178; ') $93.600.000 
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Total ingresos actividades ordinarias
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') $300.000.000 
+                th.text-end(style='border-bottom: dashed #5e6178;') $237.600.000 
+      
+      .col-lg-11
+        .tabla-b.color-secundario.mb-5(style='background-color: #f6f6f6')
+          table
+            thead.tabla-b__header
+              tr.text-center
+                th(colspan='3') Empresa Contable SAS <br> Estado de Situaci&oacute;n financiera 2019 y 2018
+            tbody
+              tr.text-center
+                td(style='width: 50%;border-bottom: dashed #5e6178; border-right: dashed #5e6178;')
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') 2019
+                th(style='border-bottom: dashed #5e6178;') 2018
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') ACTIVO
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                td(style='border-bottom: dashed #5e6178;')
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')   Activo corriente
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                td(style='border-bottom: dashed #5e6178;') 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Disponible
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $18.000.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $19.200.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Inversiones
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $2.400.000 
+                td.text-end(style='border-bottom: dashed #5e6178; ')  $1.800.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Deudores a corto plazo
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $36.000.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $32.400.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Inventarios
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $86.400.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $72.000.000 
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Total activo corriente
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $142.800.000 
+                th.text-end(style='border-bottom: dashed #5e6178;')  $125.400.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Propiedades, planta y equipo
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $60.000.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $42.000.000 
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Total activo
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $202.800.000 
+                th.text-end(style='border-bottom: dashed #5e6178;')  $167.400.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                td.text-end(style='border-bottom: dashed #5e6178;')  
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') PASIVO
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                th.text-end(style='border-bottom: dashed #5e6178;')  
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Pasivo corriente
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                th.text-end(style='border-bottom: dashed #5e6178;')  
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Obligaciones financieras
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $28.800.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $25.344.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Proveedores
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $37.165.200 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $60.600.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Cuentas por pagar
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $20.800.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $15.772.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Impuestos, grav&aacute;menes y tasas
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $24.831.600 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $17.136.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Pasivo estimado y provisiones
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $4.200.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $3.600.000 
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Total pasivo
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $115.796.800 
+                th.text-end(style='border-bottom: dashed #5e6178;')  $122.452.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                td.text-end(style='border-bottom: dashed #5e6178;')  
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') PATRIMONIO
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                th.text-end(style='border-bottom: dashed #5e6178;')  
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Capital
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $20.000.000 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $20.000.000 
+              tr
+                td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidades acumuladas
+                td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $67.003.200 
+                td.text-end(style='border-bottom: dashed #5e6178;')  $24.948.000 
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Total patrimonio
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $87.003.200 
+                th.text-end(style='border-bottom: dashed #5e6178; ')  $44.948.000 
+              tr
+                th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Total pasivo m&aacute;s patrimonio
+                th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $202.800.000 
+                th.text-end(style='border-bottom: dashed #5e6178;')  $167.400.000
     
 
-    
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+      .row.justify-content-center(titulo= "Indicadores de liquidez")
+        .col-md-12.mb-4.ms-5
+          p.mb-4 Los indicadores de liquidez miden la capacidad de la empresa para asumir las obligaciones a corto plazo (un año). En el cálculo intervienen los activos y pasivos corrientes que se encuentran relacionados en el estado de situación financiera.
+          p.mb-4 Los indicadores de liquidez más utilizados son los siguientes:
+          h4.mb-4 Razón corriente
+          p.mb-4 El indicador de razón corriente o razón circulante mide la capacidad que tiene la empresa para cubrir las obligaciones a corto plazo; para ello, verifique cuántos pesos del activo corriente tiene disponibles para respaldar dichas deudas inferiores a un año.
+          p.mb-4 Fórmula de razón corriente:
+          .row.mb-4(style='justify-content: center;')
+            .col-lg-4
+              figure.mb-4
+                img(src='@/assets/curso/tema2/img18.svg', alt='imagen ambiental').mx-auto
+            .col-lg-7
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula3.svg', alt='Razón corriente', style='width:540px').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-5
+            p.mb-0 #[strong Interpretación:] la empresa tiene una razón corriente de 1,23 en el año 2019, es decir, que por cada peso que la empresa debe en el corto plazo cuenta con $1,23 del activo corriente para respaldar la obligación.
+          h4.mb-4 Capital neto de trabajo
+          p.mb-4 El capital de trabajo neto es el indicador que muestra la disponibilidad del activo corriente para asumir los compromisos de la empresa y operar en condiciones normales, es decir, adquirir materias primas, pagar servicios, arrendamientos, sueldos, entre otros (Gerencie, 2020).
+          p.mb-4 Fórmula capital neto de trabajo:
+          .row.mb-4(style='justify-content: center;')
+            .col-lg-7
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula4.svg', alt='Capital neto de trabajo', style='width:640px').mx-auto
+            .col-lg-4
+              figure.mb-4
+                img(src='@/assets/curso/tema2/img19.svg', alt='imagen ambiental', style='width:240px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-5
+            p.mb-0 #[strong Interpretación:] la empresa Contable SAS tiene disponible $27.003.200 para cumplir con sus compromisos y operar normalmente.
+          
+          h4.mb-4 Prueba ácida
+          p.mb-4 El indicador de prueba o razón ácida mide la capacidad que tiene la empresa para cubrir las obligaciones a corto plazo, sin tener que recurrir a la venta de sus inventarios y sin tener en cuenta los gastos pagados por anticipado. También se conoce con el nombre de liquidez seca, incluye los saldos de efectivo, cuentas por cobrar e inversiones temporales.
+          p.mb-4  Fórmula prueba ácida:
+          .row.mb-4(style='justify-content: center;')
+            .col-lg-5
+              figure.mb-4
+                img(src='@/assets/curso/tema2/img20.png', alt='imagen ambiental', style='width:480px;').mx-auto
+            .col-lg-7
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula5.svg', alt='', style='width:540px').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-5
+            p.mb-0 #[strong Interpretación: la empresa Contable SAS tiene disponible $0,49 centavos para respaldar las obligaciones a corto plazo, sin tener que vender sus inventarios.] 
+      
+
+      .row.justify-content-center(titulo= "Indicadores de endeudamiento")
+        .col-md-12.mb-4.ms-5
+          p.mb-5 Miden la capacidad que tiene la empresa para acceder a nuevos créditos y cumplir con los compromisos adquiridos.
+          h4.mb-4 Razón de deuda
+          p.mb-5 Mide el porcentaje de participación que tienen los acreedores frente a los activos totales de la empresa.
+          .row.mb-4(style='justify-content: center;')
+            .col-lg-6
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula6.svg', alt='', style='width:540px').mx-auto
+              p.mb-4 Se multiplica por 100 con el fin de reflejar el porcentaje.
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula7.svg', alt='', style='width:406px').mx-auto
+            .col-lg-5
+              figure.mb-4
+                img(src='@/assets/curso/tema2/img21.png', alt='imagen ambiental', style='width:520px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-5
+            p.mb-0 #[strong Interpretación: ] los acreedores de la empresa Contable SAS tienen derecho del 57,09% de sus activos totales.
+          
+          h4.mb-5 Endeudamiento financiero
+          p.mb-4 Mide la participación de las obligaciones financieras frente a las ventas netas generadas en un período determinado.
+          p.mb-5 Fórmula de endeudamiento financiero:
+          .row.mb-4(style='justify-content: center;')
+            .col-lg-5
+              figure.mb-4
+                img(src='@/assets/curso/tema2/img22.png', alt='imagen ambiental', style='width:420px;').mx-auto
+            .col-lg-6
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula8.svg', alt='', style='width:670px').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-5
+            p.mb-0 #[strong Interpretación: ] las obligaciones financieras de la empresa Contable SAS tienen una participación del 9,6% frente a las ventas netas.
+          
+          
+          
+          h4.mb-5 Impacto de la carga financiera 
+          p.mb-4 Mide el porcentaje de participación de los gastos financieros frente a las ventas netas del período.
+          p.mb-5 Fórmula de endeudamiento financiero:
+          .row.mb-0(style='justify-content: center;')
+            .col-lg-6
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula9.svg', alt='Fórmula de endeudamiento financiero', style='width:670px').mx-auto
+            .col-lg-5
+              figure.mb-4
+                img(src='@/assets/curso/tema2/img23.png', alt='imagen ambiental', style='width:400px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-5
+            p.mb-0 #[strong Interpretación: ] los gastos financieros de la empresa Contable SAS representan el 0,40% de las ventas netas.
+          
+          
+          h4.mb-5 Endeudamiento a corto plazo
+          p.mb-4 Mide el porcentaje de participación que tiene el pasivo corriente (a corto plazo) frente al pasivo total, esto quiere decir, que es el porcentaje que tiene vencimiento en un tiempo menor de un año.
+          p.mb-5 Fórmula endeudamiento a corto plazo:
+          .row.mb-0(style='justify-content: center;')
+            .col-lg-5
+              figure.mb-4
+                img(src='@/assets/curso/tema2/img24.png', alt='imagen ambiental', style='width:360px;').mx-auto
+            .col-lg-6
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula10.svg', alt='Fórmula de Endeudamiento a corto plazo', style='width:670px').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-5
+            p.mb-0 #[strong Interpretación: ] el resultado indica que el 100% de los pasivos tiene vencimiento a menos de un año.
+        
+        
+          h4.mb-5 Razón de cobertura de intereses
+          p.mb-4 Mide la incidencia que tienen los gastos financieros sobre las utilidades de la empresa.
+          p.mb-5 Fórmula de cobertura de intereses:
+          .row.mb-0(style='justify-content: center;')
+            .col-lg-6
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula11.svg', alt='Fórmula de cobertura de intereses', style='width:670px').mx-auto
+            .col-lg-5
+              figure.mb-4
+                img(src='@/assets/curso/tema2/img25.png', alt='imagen ambiental', style='width:360px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-5
+            p.mb-0 #[strong Interpretación: ] la empresa Contable SAS originó una utilidad 69 veces superior al valor de los intereses pagados; por lo tanto, se puede decir que dispone de capacidad para cubrirlos.
+        
+
+          h4.mb-5 Indicador de apalancamiento
+          p.mb-4 Mide el grado de compromiso de los socios frente a los acreedores de la empresa.
+          p.mb-5 Fórmula del indicador de apalancamiento:
+          .row.mb-0(style='justify-content: center;')
+            .col-lg-5
+              figure.mb-4
+                img(src='@/assets/curso/tema2/img26.png', alt='imagen ambiental', style='width:400px;').mx-auto
+            .col-lg-6
+              figure.mb-4
+                img(src='@/assets/curso/tema2/formula12.svg', alt='Fórmula de cobertura de intereses', style='width:670px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-2
+            p.mb-0 #[strong Interpretación: ] el resultado indica que la empresa Contable SAS tiene $1,33 de deuda por cada peso de patrimonio.
+
+
+
+
+
+    h3.mb-4 Indicadores de actividad o rotación
+    p.mb-4 Los indicadores de actividad también se les denomina indicadores de rotación o de eficiencia. Estos indicadores miden la capacidad de la empresa para generar ingresos frente a sus activos.
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+      .row.justify-content-center(titulo= "Rotación de cartera")
+        .col-md-12.mb-4.ms-5
+      .row.justify-content-center(titulo= "Rotación de inventarios")
+        .col-md-12.mb-4.ms-5
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </template>
 
