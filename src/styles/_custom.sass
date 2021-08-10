@@ -46,7 +46,7 @@
 .tabla-b th
   font-size: 18px
 
-.tabla-b tr:nth-child(even)
+/*.tabla-b tr:nth-child(even)
   background-color: white
 
 .cajon.color-acento-contenido 
@@ -63,3 +63,24 @@
     font-weight: 800
     text-align: center
     padding-top: 3px
+
+.anexo.enlace-mover
+  left: 50%
+  width: 525px
+  position: absolute
+
+@media screen and ( max-width: $bp-max-xs )
+  .anexo.enlace-mover
+    left: 0%
+    width: 100%
+    position: relative
+    //margin: 0
+@media screen and ( max-width: $bp-max-sm)
+  .anexo.enlace-mover
+    left: 0%
+    width: auto
+@media screen and ( max-width: $bp-max-lg)
+  .anexo.enlace-mover
+    left: 10%
+    width: 60%
+    

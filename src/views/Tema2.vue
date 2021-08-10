@@ -405,7 +405,7 @@
 
     .row.justify-content-center
       .col-lg-11
-        .tabla-b.color-secundario.mb-4(style='background-color: #f6f6f6')
+        .tabla-b.color-secundario.mb-4
           table
               thead.tabla-b__header
                 th(colspan='3') Empresa contable SAS <br> Estado de resultados Integral 2019 y 2018
@@ -464,7 +464,7 @@
                   td.text-end(style='border-bottom: dashed #5e6178;')  $14.280.000
       
       .col-lg-11
-        .tabla-b.color-secundario.mb-4(style='background-color: #f6f6f6')
+        .tabla-b.color-secundario.mb-4
           table
             tbody
               tr(style='border-top: dashed #5e6178;')
@@ -481,7 +481,7 @@
                 td.text-end(style='border-bottom: dashed #5e6178;')  $ 24.948.000 
       
       .col-lg-11
-        .tabla-b.color-secundario.mb-4(style='background-color: #f6f6f6')
+        .tabla-b.color-secundario.mb-4
           table
             tbody
               tr(style='border-top: dashed #5e6178;')
@@ -517,7 +517,7 @@
                 th.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $189.600.000 
                 th.text-end(style='border-bottom: dashed #5e6178; ')  $162.000.000 
       .col-lg-11
-        .tabla-b.color-secundario.mb-5(style='background-color: #f6f6f6')
+        .tabla-b.color-secundario.mb-5
           table
             tbody
               tr(style='border-top: dashed #5e6178;')
@@ -538,7 +538,7 @@
                 th.text-end(style='border-bottom: dashed #5e6178;') $237.600.000 
       
       .col-lg-11
-        .tabla-b.color-secundario.mb-5(style='background-color: #f6f6f6')
+        .tabla-b.color-secundario.mb-5
           table
             thead.tabla-b__header
               tr.text-center
@@ -788,11 +788,275 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo= "Rotación de cartera")
         .col-md-12.mb-4.ms-5
+          p.mb-4 Este indicador muestra el número de veces en que la empresa convierte sus cuentas por cobrar en efectivo durante el período de un año.
+          p.mb-4 Fórmula rotación de cartera:
+          .row.justify-content-center 
+            .col-lg-6
+              figure.mb-5
+                img(src='@/assets/curso/tema2/formula13.svg', alt='Fórmula de rotación de cartera', style='width:670px;').mx-auto
+          p.mb-4 Para calcular el promedio de clientes se realiza la sumatoria del año 1 y el año 2, posteriormente se divide en dos para determinar el promedio.
+          p.mb-5 La empresa contable SAS presenta la siguiente información de deudores a corto plazo, en la que se estima que el 90% corresponde a la cuenta de clientes: 
+          .row.justify-content-center
+            .col-lg-8
+              .tabla-b.color-secundario.mb-5
+                table                 
+                  tbody
+                    tr(style='background-color: white;')
+                      th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  
+                      th(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;').text-center 2019
+                      th(style='border-bottom: dashed #5e6178;').text-center 2018
+                    tr
+                      td(style='background-color: #f6f6f6;border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  Deudores corto plazo
+                      td(style='background-color: #f6f6f6;border-bottom: dashed #5e6178; border-right: dashed #5e6178;').text-center $36.000.000
+                      td(style='background-color: #f6f6f6;border-bottom: dashed #5e6178;').text-center $32.400.000
+          .row.justify-content-center 
+            .col-lg-6
+              figure.mb-5
+                img(src='@/assets/curso/tema2/formula14.svg', alt='Fórmula de rotación de cartera', style='width:420px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-4
+            p.mb-0 #[strong Interpretación:] el resultado indica que la empresa Contable SAS convierte en efectivo las cuentas por cobrar-clientes cada 6,23 veces en el año.
+          p.mb-4 #[strong Período promedio de cobro:] indica el número de días en que las cuentas de clientes se convierten en efectivo durante el año.
+          p.mb-4 Fórmula:
+          .row.justify-content-center
+            .col-lg-7
+              figure.mb-5
+                img(src='@/assets/curso/tema2/formula15.svg', alt='Fórmula Período promedio de cobro', style='width:670px;').mx-auto
+            .col-lg-4
+              figure.mb-5
+                img(src='@/assets/curso/tema2/img27.svg', alt='imagen ambiental', style='width:310px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-4
+            p.mb-0 #[strong Interpretación:] el resultado indica que la empresa Contable SAS convierte en efectivo las cuentas por cobrar a clientes cada 58 días en el año, es decir, es el período en el cual percibe ingresos por las ventas a crédito.
+      
+      
       .row.justify-content-center(titulo= "Rotación de inventarios")
         .col-md-12.mb-4.ms-5
-          
+          p.mb-4 Indica el número de veces en que los inventarios se venden durante el año, convirtiéndose en efectivo o en cuentas por cobrar a clientes.
+          p.mb-4 Fórmula:
+          .row.justify-content-center
+            .col-lg-8
+              figure.mb-5
+                img(src='@/assets/curso/tema2/formula16.svg', alt='Fórmula Rotación de inventarios', style='').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-4
+            p.mb-0 #[strong Interpretación:] el inventario de la empresa Contable SAS rota 2,39 veces en el año, es decir, se convierte 2,39 veces por año en efectivo o en cuentas por cobrar, lo que corresponde a un período promedio de 152 días. Por lo tanto, la rotación es muy baja, la empresa debe implementar estrategias que permitan una rotación con mayor frecuencia.
+      
+      .row.justify-content-center(titulo= "Rotación de activos totales")
+        .col-md-12.mb-4.ms-5
+          p.mb-4 Mide el número de veces que los ingresos por actividades ordinarias cubren los activos totales de la empresa.
+          p.mb-4 Fórmula:
+          .row.justify-content-center
+            .col-lg-5
+              figure.mb-5
+                img(src='@/assets/curso/tema2/img28.png', alt='imagen ambinetal', style='460px;').mx-auto
+            .col-lg-7
+              figure.mb-5
+                img(src='@/assets/curso/tema2/formula17.svg', alt='formula Rotación de activos totales', style='').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-4
+            p.mb-0 #[strong Interpretación:] los ingresos operacionales cubren 1,47 veces los activos totales de la empresa.
+      
+      .row.justify-content-center(titulo= "Rotación proveedores")
+        .col-md-12.mb-4.ms-5
+          p.mb-4 Este indicador muestra el período en que se cancelan las cuentas por pagar a proveedores durante el año.
+          .row.justify-content-center
+            .col-lg-8
+              figure.mb-5
+                img(src='@/assets/curso/tema2/formula18.svg', alt='Formula Rotación proveedores', style='').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-4
+            p.mb-0 #[strong Interpretación:] la empresa contable SAS paga las cuentas a proveedores cada 121 días, es decir, 3 veces en el año.
+      
+    
+
+    h3.mb-4 Indicadores de rendimiento 
+    p.mb-4 Los indicadores de rentabilidad o rendimiento miden la capacidad de la empresa para generar utilidades.
 
 
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+      .row.justify-content-center(titulo= "Rentabilidad sobre ingresos operacionales")
+        .col-md-12.mb-4.ms-5
+          p.mb-4 Indica el porcentaje de participación de la utilidad generada por los ingresos de actividades ordinarias.
+          .row.justify-content-center
+            .col-lg-8
+              figure.mb-5
+                img(src='@/assets/curso/tema2/formula19.svg', alt='Formula Rentabilidad sobre ingresos operacionales', style='width:800px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-4
+            p.mb-0 #[strong  Interpretación:]la empresa contable SAS por cada peso vendido generó el 15,01% de utilidad neta.
+
+
+      
+      
+      .row.justify-content-center(titulo= "Rentabilidad sobre el patrimonio")
+        .col-md-12.mb-4.ms-5
+          p.mb-4 El indicador de rentabilidad sobre el patrimonio o denominada también rentabilidad financiera muestra la rentabilidad de la inversión realizada por los socios.
+          p.mb-4 Fórmula :
+          .row.justify-content-center
+            .col-lg-8
+              figure.mb-5
+                img(src='@/assets/curso/tema2/formula20.svg', alt='Formula Rentabilidad sobre el patrimonio', style='width:700px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-4
+            p.mb-0 #[strong  Interpretación:] la empresa contable SAS obtuvo una rentabilidad de 51,78% sobre la inversión realizada por los socios.
+      
+      
+      .row.justify-content-center(titulo= "Rentabilidad de la utilidad bruta sobre ventas")
+        .col-md-12.mb-4.ms-5
+          p.mb-4 Representa el porcentaje de participación de la utilidad bruta sobre las ventas generadas, es decir, sobre los ingresos por actividades ordinarias.
+          p.mb-4 Fórmula :
+          .row.justify-content-center
+            .col-lg-8
+              figure.mb-5
+                img(src='@/assets/curso/tema2/formula21.svg', alt='Formula Rentabilidad de la utilidad bruta sobre ventas', style='width:800px;').mx-auto
+          .cajon.color-acento-contenido.p-4.mb-4
+            p.mb-0 #[strong  Interpretación:] la empresa contable SAS obtuvo una rentabilidad de 36,8% de utilidad bruta sobre los ingresos operacionales generados.
+    
+    p.mb-4 En la tabla que se muestra a continuación, se pueden los principales indicadores financieros.
+    .tabla-b.color-acento-contenido.mb-5.ms-5
+            table
+              caption Tomado de Coral, D., L. y Gudiño, E. (2014)
+              thead.tabla-b__header
+                tr
+                  th(style='background-color:#D9A171') Indicador
+                  th(style='background-color:#D9A171')  Raz&oacute;n
+                  th(style='background-color:#D9A171')  F&oacute;rmula
+                  th(style='background-color:#D9A171')  Concepto
+              tbody
+                tr
+                  th.text-center(rowspan='3', style='font-size:18px; border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Liquidez
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Raz&oacute;n corriente
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Activo corriente/Pasivo corriente
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Mide la disponibilidad a corto plazo que tiene la empresa para pagar sus obligaciones del pasivo corriente; muestra con cu&aacute;ntos pesos del activo corriente se est&aacute; respaldando cada peso de deuda inferior a un a&ntilde;o.
+                tr(style='background-color:#fff')
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Prueba &aacute;cida
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Activo corriente-inventarios/Pasivo corriente
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Mide la capacidad inmediata que tiene la empresa para cancelar sus pasivos a corto plazo; sin depender de la existencia de sus mercanc&iacute;as.
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Capital de trabajo neto
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Activo corriente &ndash; Pasivo corriente
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Muestra la capacidad del activo corriente para cubrir sus gastos operacionales, una vez deducidas todas sus obligaciones que le permitir&aacute;n desarrollar su objeto social.
+                tr
+                  th.text-center(rowspan='8', style='font-size:18px; border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Actividad/rotaci&oacute;n
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Rotaci&oacute;n del inventario
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Costo venta /inventario promedio de mercanc&iacute;as
+                  td(style='border-bottom: dashed #5e6178;') N&uacute;mero de veces que los inventarios se convierten en efectivo o en clientes.
+                tr(style='background-color:#f6f6f6')
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Promedio medio de inventario
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') 365/rotaci&oacute;n inventarios
+                  td(style='border-bottom: dashed #5e6178;') Per&iacute;odo(d&iacute;as) de rotaci&oacute;n de los inventarios durante el a&ntilde;o.
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Rotaci&oacute;n de las cuentas por cobrar
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Ingresos operacionales/promedio cuenta de clientes
+                  td(style='border-bottom: dashed #5e6178;')
+                    | N&uacute;mero de veces en el a&ntilde;o en que la empresa convierte su cuenta por cobrar en efectivo.
+                tr(style='background-color:#f6f6f6')
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Per&iacute;odo medio de cobro
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') 365/Rotaci&oacute;n cuentas por cobrar
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Determina cu&aacute;ntos d&iacute;as se cobra el valor de los clientes y compara si se cumple con la pol&iacute;tica de cr&eacute;dito.
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')(rowspan='2') Rotaci&oacute;n del activo total
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')(rowspan='2') Ventas netas totales/Activos total
+                  td(style='border-bottom: dashed #5e6178;')(rowspan='2') N&uacute;mero de veces que los ingresos operacionales cubren los activos totales.
+                tr
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Rotaci&oacute;n de proveedores
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Compras a cr&eacute;dito /promedio de cuenta proveedores
+                  td(style='border-bottom: dashed #5e6178;') N&uacute;mero de veces en el a&ntilde;o en que la empresa cancela sus cuentas por pagar.
+                tr(style='background-color:#f6f6f6')
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Per&iacute;odo promedio proveedores
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') 365/rotaci&oacute;n proveedores
+                  td(style='border-bottom: dashed #5e6178;') Per&iacute;odo (d&iacute;as) en que las cuentas a proveedores son canceladas.
+                tr(style='background-color:#fff')
+                  th.text-center(rowspan='5', style='font-size:18px; border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Endeudamiento
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Raz&oacute;n de la deuda
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') (Pasivo total /Activo total) *100
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Proporci&oacute;n de los activos de la empresa a los que tienen derecho los acreedores por ser financiados por ellos.
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Raz&oacute;n de endeudamiento financiero
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') (Obligaciones financieras /Ventas netas) *100
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Muestra el porcentaje que representan las obligaciones financieras con respecto a las ventas. Es recomendable que el porcentaje no pase del 10%, para que los gastos sean cubiertos con la utilidad operacional.
+                tr(style='background-color:#fff')
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Cobertura de intereses
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad operacional/Intereses pagados
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Refleja la capacidad de la empresa para pagar su carga financiera anual con sus utilidades.
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') A corto plazo
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') (Pasivo corriente /Total pasivo) *100
+                  td(style='border-bottom: dashed #5e6178;') Indica qu&eacute; porcentaje de los pasivos tienen vencimiento a menos de un a&ntilde;o.
+                tr(style='background-color:#fff')
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Indicador de apalancamiento
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Pasivo total/patrimonio
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Mide el compromiso del patrimonio de los socios para con los acreedores de la empresa.
+                tr(style='background-color:#f6f6f6')
+                  th.text-center(rowspan='4', style='font-size:18px; border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Rentabilidad
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Margen operacional de utilidad
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') (Utilidad de operaci&oacute;n /ventas netas) *100
+                  td(style='border-bottom: dashed #5e6178;') Porcentaje de utilidad obtenido de las operaciones normales de la empresa.
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Margen neto de utilidad
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') (Utilidad neta /ventas netas) *100
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Indica el porcentaje de utilidad neta generada por las ventas netas o los ingresos operacionales, los resultados demuestran si el negocio ha sido lucrativo o no.
+                tr(style='background-color:#f6f6f6')
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Rentabilidad sobre activo total
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') (Utilidad neta del ejercicio /Total activo bruto) *100
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Muestra la capacidad del activo total (sin descontar el valor de las depreciaciones y provisiones) para producir utilidades.
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Margen de utilidad bruta
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') (Utilidad bruta /ventas netas) *100
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Indica el porcentaje de utilidad que generaron las ventas o los ingresos operacionales, sin tener en cuenta los gastos operacionales.
+                tr
+                  th.text-center(rowspan='3', style='font-size:18px; border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Valor de mercado de la empresa
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad por acci&oacute;n
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad del ejercicio / N&uacute;mero de acciones
+                  td(style='border-bottom: dashed #5e6178;') Establece el valor de la utilidad neta del per&iacute;odo por acci&oacute;n.
+                tr(style='background-color:#fff')
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Rentabilidad de las acciones
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') (Utilidad por acci&oacute;n / valor del mercado por acci&oacute;n) *100
+                  td(style='border-bottom: dashed #5e6178;') Mide la rentabilidad de las acciones considerando el valor del mercado de estas.
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Dividendos por acci&oacute;n
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Dividendos declarados / N&uacute;mero de acciones
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Indica la parte de los beneficios que percibe cada acci&oacute;n en la distribuci&oacute;n de utilidades que la empresa declar&oacute; como dividendos.
+                tr
+                  th.text-center(rowspan='3',style='font-size:18px; border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Desempe&ntilde;o
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') EBITDA
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad operativa + depreciaci&oacute;n + amortizaci&oacute;n + provisiones
+                  td(style='border-bottom: dashed #5e6178;')
+                    | El EBITDA es un indicador financiero que hace referencia a las ganancias de la compa&ntilde;&iacute;a antes de intereses, impuestos, depreciaciones y amortizaciones.
+                tr(style='background-color:#f6f6f6')
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Estructura financiera
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Pasivos/activo y Patrimonio/activo
+                  td(style='border-bottom: dashed #5e6178;')
+                    | Proporci&oacute;n de los activos que est&aacute;n siendo financiados con deuda de terceros o con capital propio.
+                tr
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') KTNO
+                  td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') C*C + inventarios - C*P Proveedores
+                  td(style='border-bottom: dashed #5e6178;')
+                    | El capital de trabajo neto operativo determina de una manera m&aacute;s acorde con el flujo de operaci&oacute;n de la organizaci&oacute;n, el capital necesario para operar.
+
+    .cajon.color-acento-contenido.p-4.mb-5
+      p.mb-0 Para profundizar en esta temática recuerde explorar la siguiente bibliografía en la Biblioteca SENA:
+
+    .row.justify-content-center
+      .col-lg-7
+        a.anexo.mb-4.mb-lg-0(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4717" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Bonsón, E., Cortijo, V., Flores, F. (2009). Análisis de estados financieros. Fundamentos teóricos y casos prácticos. Pearson Educación:
+      .col-lg-5
+        a.anexo.mb-4.mb-lg-0(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=105" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Coral, D., L. y Gudiño, E.  (2014). Contabilidad universitaria. (7a. ed.) McGraw-Hill Interamericana.
 
 
 

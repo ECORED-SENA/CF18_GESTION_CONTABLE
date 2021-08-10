@@ -142,7 +142,7 @@
                   td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')
                     b Efectivo y equivalentes de efectivo
                   td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;').text-end $362.458
-                  td(style='border-bottom: dashed #5e6178; ').text-end 1,53%
+                  td(style='border-bottom: dashed #5e6178;').text-end 1,53%
                 tr
                   td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Activos financieros
                   td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;').text-end $856.355
@@ -389,62 +389,62 @@
                     th(colspan='3') COMPA&Ntilde;&Iacute;A CONTABLE SAS <br> ESTADO DEL RESULTADO INTEGRAL<br> PARA LOS AÑOS TERMINADOS EL 31 DE DICIEMBRE DE 2019 <br>(Cifras expresadas en miles de pesos colombianos)
                 tbody
                   tr
-                    td  
-                    td.text-center 
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')
+                    td.text-center(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') 
                       b  2019
-                    td.text-center
+                    td.text-center(style='border-bottom: dashed #5e6178;')
                       b  AN&Aacute;LISIS VERTICAL
                   tr
-                    td Ingresos de actividades ordinarias
-                    td.text-end  $30.771.23
-                    td.text-end 100%
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Ingresos de actividades ordinarias
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $30.771.23
+                    td.text-end(style='border-bottom: dashed #5e6178;') 100%
                   tr
-                    td Costo de ventas
-                    td.text-end $21.520.260
-                    td.text-end 70%
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Costo de ventas
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') $21.520.260
+                    td.text-end(style='border-bottom: dashed #5e6178;') 70%
                   tr
-                    td Utilidad bruta
-                    td.text-end $ 9.250.972
-                    td.text-end 30%
-                  tr
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Utilidad bruta
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') $ 9.250.972
+                    td.text-end(style='border-bottom: dashed #5e6178;') 30%
+                  tr(style='border-bottom: dashed #5e6178;')
                     td(colspan='3')
                   tr
-                    td Otros ingresos
-                    td.text-end  $451.971
-                    td.text-end 1%
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Otros ingresos
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $451.971
+                    td.text-end(style='border-bottom: dashed #5e6178;') 1%
                   tr
-                    td Gastos de ventas y distribución
-                    td.text-end  $5.390.590
-                    td.text-end 18%
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Gastos de ventas y distribución
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $5.390.590
+                    td.text-end(style='border-bottom: dashed #5e6178;') 18%
                   tr
-                    td Gastos de administración
-                    td.text-end  $2.023.991
-                    td.text-end  7%
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Gastos de administración
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $2.023.991
+                    td.text-end(style='border-bottom: dashed #5e6178;')  7%
                   tr
-                    td Gastos financieros
-                    td.text-end  $1.016.195
-                    td.text-end 3%
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Gastos financieros
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $1.016.195
+                    td.text-end(style='border-bottom: dashed #5e6178;') 3%
                   tr
-                    td Otros gastos
-                    td.text-end  $95.344
-                    td.text-end 0%
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Otros gastos
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')  $95.344
+                    td.text-end(style='border-bottom: dashed #5e6178;') 0%
                   tr
-                    td 
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') 
                       b Utilidad operacional
-                    td.text-end
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')
                       b $1.176.823 
-                    td.text-end
+                    td.text-end(style='border-bottom: dashed #5e6178;')
                       b 4%
                   tr
-                    td Gasto por impuesto a la renta 
-                    td.text-end $388.352
-                    td.text-end 1%
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') Gasto por impuesto a la renta 
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;') $388.352
+                    td.text-end(style='border-bottom: dashed #5e6178;') 1%
                   tr
-                    td
+                    td(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')
                       b Utilidad del período
-                    td.text-end
+                    td.text-end(style='border-bottom: dashed #5e6178; border-right: dashed #5e6178;')
                       b  $788.471
-                    td.text-end
+                    td.text-end(style='border-bottom: dashed #5e6178;')
                       b  3%
             p.mb-4 El concepto de costo de ventas posee un valor de $21.520.260 y las ventas o ingresos de actividades ordinarias equivale a $30.771.232.
             .row.justify-content-center.mb-5
