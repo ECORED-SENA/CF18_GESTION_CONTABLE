@@ -644,9 +644,213 @@
     p.mb-4 Luego, se realiza la comprobación mediante el estado de resultados:
 
 
+    .row.justify-content-center
+      .col-lg-8
+        .tabla-b.color-secundario.mb-5
+            table
+              thead.tabla-b__header
+                tr
+                  th(colspan='2') Contable SAS <br> Estado de resultados integral <br> A 31 de diciembre de 2020
+              tbody
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style='width:60%; border-right: dashed #5e6178;') Ingresos operacionales
+                  td.text-end  $320.000.000 
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Costos variables
+                  td.text-end  $280.000.000 
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Margen de contribuci&oacute;n
+                  td.text-end  $40.000.000 
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Costos fijos
+                  td.text-end  $ 40.000.000 
+                tr(style='border-bottom: dashed #5e6178;')
+                  th(style=' border-right: dashed #5e6178;') Utilidad operacional
+                  th.text-end  $0 
+
+
+    p.mb-4 #[strong Fórmula para obtener una utilidad operacional:]
+    p.mb-5 Permite calcular las unidades a vender para generar la utilidad deseada.
+    .row.justify-content-start.mb-4
+      .col-lg-7
+        figure.mb-4
+          img(src='@/assets/curso/tema3/formula14.svg', alt='formula utilidad operacional', style='width:640px;').mx-auto
+      .col-lg-4
+        figure.mb-4
+          img(src='@/assets/curso/tema3/img16.svg', alt='imagen ambiental', style='width:410px;').mx-auto
+      
+
+    p.mb-4 #[strong Ejemplo:]
+    p.mb-5 A partir de la información del ejemplo anterior se desea obtener una utilidad de 10.000.000 al finalizar el período.
+    .row.mb-5(style='justify-content: space-around;')
+      .col-lg-5
+        figure.mb-4
+          img(src='@/assets/curso/tema3/img17.svg', alt='imagen ambiental', style='width:480px;').mx-auto
+      .col-lg-5
+        figure.mb-4
+          img(src='@/assets/curso/tema3/formula15.svg', alt='cálculo de utilidades', style='width:450px;').mx-auto
+
+    p.mb-4 Para obtener una utilidad de $10.000.000, la empresa debe vender 10.000 unidades.
+    p.mb-5 Cálculo del punto de equilibrio en pesos:
+    .row.mb-5(style='justify-content: center;')
+      .col-lg-6
+        figure.mb-4
+          img(src='@/assets/curso/tema3/formula16.svg', alt='cálculo ejemplo punto equilibrio en pesos', style='width:450px;').mx-auto
+
+
+    p.mb-4 Para generar una utilidad de $10.000.000, al finalizar el período debe obtener ingresos por ventas de $400.000.000.
+    p.mb-5 Luego, se realiza la comprobación mediante el estado de resultados:
+
+
+    .row.justify-content-center
+      .col-lg-8
+        .tabla-b.color-secundario.mb-5
+            table
+              thead.tabla-b__header
+                tr
+                  th(colspan='2') Contable SAS <br> Estado de resultados integral <br> A 31 de diciembre de 2020
+              tbody
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style='width:60%; border-right: dashed #5e6178;') Ingresos operacionales
+                  td.text-end  $400.000.000  
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Costos variables
+                  td.text-end  $350.000.000 
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Margen de contribuci&oacute;n
+                  td.text-end  $50.000.000 
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Costos fijos
+                  td.text-end  $ 40.000.000 
+                tr(style='border-bottom: dashed #5e6178;')
+                  th(style=' border-right: dashed #5e6178;') Utilidad operacional
+                  th.text-end  $ 10.000.000 
+    
+    
+    p.mb-4 Fórmula para obtener una utilidad neta después de impuestos:
+    p.mb-4 Permite calcular las unidades a vender para generar la utilidad deseada.
+    .row.justify-content-center.mb-4
+      .col-lg-7.align-self-center
+        figure.mb-4
+          img(src='@/assets/curso/tema3/formula17.svg', alt='formula utilidad operacional', style='width:640px;').mx-auto
+      .col-lg-5.align-self-center
+        figure.mb-4
+          img(src='@/assets/curso/tema3/img18.svg', alt='imagen ambiental', style='width:450px;').mx-auto
+    
+    p.mb-4 #[strong Ejemplo:]
+    p.mb-4 Conforme a la información del ejemplo anterior se desarrolla el ejercicio. La tasa de impuesto es del 34%.
+    .row.justify-content-center.mb-4
+      .col-lg-5.align-self-center
+        figure.mb-4
+          img(src='@/assets/curso/tema3/img19.svg', alt='imagen ambiental', style='width:490px;').mx-auto
+      .col-lg-6.align-self-center
+        figure.mb-4
+          img(src='@/assets/curso/tema3/formula18.svg', alt='utilidad neta después de impuestos', style='width:540px;').mx-auto
+    
+    p.mb-4 Para obtener una utilidad después de impuestos, la empresa debe vender 111.030,30 unidades.
+    p.mb-4 Cálculo del punto de equilibrio en pesos:
+    .row.justify-content-center.mb-4
+      .col-lg-6.align-self-center
+        figure.mb-4
+          img(src='@/assets/curso/tema3/formula19.svg', alt='utilidad neta después de impuestos', style='width:540px;').mx-auto
+      .col-lg-6.align-self-center
+        figure.mb-4
+          img(src='@/assets/curso/tema3/img20.svg', alt='imagen ambiental', style='width:620px;').mx-auto
+
+    p.mb-5 Luego, se realiza la comprobación mediante el estado de resultados:
+    .row.justify-content-center
+      .col-lg-8
+        .tabla-b.color-secundario.mb-5
+            table
+              thead.tabla-b__header
+                tr
+                  th(colspan='2') Contable SAS <br> Estado de resultados integral <br> A 31 de diciembre de 2020
+              tbody
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style='width:60%; border-right: dashed #5e6178;') Ingresos operacionales
+                  td.text-end   $441.212.120  
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Costos variables
+                  td.text-end   $386.060.605
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Margen de contribuci&oacute;n
+                  td.text-end  $55.151.515 
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Costos fijos
+                  td.text-end  $40.000.000 
+                tr(style='border-bottom: dashed #5e6178;')
+                  th(style=' border-right: dashed #5e6178;') Utilidad operacional
+                  th.text-end  $15.151.515 
+                tr(style='border-bottom: dashed #5e6178;')
+                  td(style=' border-right: dashed #5e6178;') Provisión para impuestos 
+                  td.text-end  $5.151.515
+                tr(style='border-bottom: dashed #5e6178;')
+                  th(style=' border-right: dashed #5e6178;') Utilidad operacional
+                  th.text-end  $10.000.000 
+    
+    p.mb-4 Se puede observar en la comprobación que se genera una utilidad de $10.000.000 después de impuestos.
+    
+    
+    
     separador
     #t_3_4.titulo-segundo
-      .h2 3.3 Generación de informes
+      .h2 3.4 Generación de informes
+    
+    .row.justify-content-center.mb-4
+      .col-lg-8.align-self-center
+        p.mb-4 Para la generación de informes financieros es importante tener en cuenta los estándares internacionales y la normatividad vigente, ya que la presentación y revelación de estos debe cumplir los lineamientos que allí se establecen.
+        .cajon.color-primario.p-4.mb-4
+          p.mb-0 Cabe resaltar que el analista financiero debe tener pleno conocimiento de la empresa, del entorno en el cual se desenvuelve, de la planeación estratégica y de los objetivos que persigue a corto, mediano y largo plazo. Asimismo, tendrá el conocimiento para la presentación del compendio de los estados financieros de propósito general que se relacionan en la Norma Internacional de Contabilidad (NIC) 1, los cuales se relacionan a continuación:
+      .col-lg-4 
+        figure.mb-4
+          img(src='@/assets/curso/tema3/img21.svg', alt='imagen ambiental', style='width:310px;').mx-auto
+
+    .row.justify-content-center
+      .col-auto.px-1
+        figure.mb-4
+          img(src='@/assets/curso/tema3/tar1.svg', alt='Estado de situación financiera', style='width:240px;').mx-auto
+      .col-auto.px-0
+        figure.mb-4
+          img(src='@/assets/curso/tema3/tar2.svg', alt='Estado de resultados integral', style='width:240px;').mx-auto
+      .col-auto.px-0
+        figure.mb-4
+          img(src='@/assets/curso/tema3/tar3.svg', alt='Estado de cambio en el patrimonio', style='width:240px;').mx-auto
+      .col-auto.px-0
+        figure.mb-4
+          img(src='@/assets/curso/tema3/tar4.svg', alt='Estado de flujos de efectivo', style='width:240px;').mx-auto
+      .col-auto.px-0
+        figure.mb-4
+          img(src='@/assets/curso/tema3/tar5.svg', alt='Notas a los estados financieros', style='width:240px;').mx-auto
+    
+    p.mb-5 En el componente formativo denominado “Estados financieros” se encuentra de forma detallada el procedimiento de elaboración de cada uno de estos, en el que se da importancia a la aplicación de la Norma Internacional y a las cualidades fundamentales y de mejora. Los estados financieros se elaboran por lo menos una vez al año, teniendo en cuenta el período contable, estos deben ser claros, comprensibles y fiables, que reflejen la situación económica y financiera de la entidad.
+    .row.justify-content-center.mb-4
+      .col-lg-4
+        figure.mb-2
+          img(src='@/assets/curso/tema3/img22.svg', alt='imagen ambiental', style='width:360px;').mx-auto
+      .col-lg-8
+        p.mb-4 Para complementar los informes financieros es importante aplicar las diferentes técnicas e indicadores de análisis financiero, en las que se obtienen datos cuantitativos y cualitativos que permiten tomar decisiones de inversión, rentabilidad y endeudamiento. Es indispensable que se realice la interpretación de los resultados obtenidos, teniendo en cuenta que los valores por sí solos no son comprensibles para los diferentes usuarios de la información financiera; por lo tanto, se realiza el informe cualitativo, teniendo en cuenta los datos generados en el análisis horizontal y vertical, además, de los indicadores de liquidez, rentabilidad, actividad y endeudamiento.
+        .cajon.color-primario.p-4
+          p.mb-0 Finalmente, estas técnicas deben ser acompañadas del cálculo del punto de equilibrio, el EBITDA y el EVA, cuyo objetivo es analizar el desempeño de la organización y de esta manera, diseñar e implementar estrategias que conduzcan a la mejora continua de la empresa.
+
+    p.mb-4 Las características que debe reflejar la información financiera son las siguientes:
+    .row.justify-content-center.mb-4
+      .col-lg-6
+        figure.mb-4
+          img(src='@/assets/curso/tema3/img23.svg', alt='Caracteristicas de la informacion financiera', style='width:510px;').mx-auto
+      .col-lg-6
+        figure.mb-4
+          img(src='@/assets/curso/tema3/img24.svg', alt='imagen ambiental', style='width:600px;').mx-auto
+
+    .row.mb-4
+      .col-lg-12
+        .cajon.color-acento-contenido.p-4.mb-5
+          p.mb-4 Para terminar, revise el marco conceptual de la Norma Internacional de Contabilidad (NIC) 1, a través de siguiente enlace:
+          a.anexo.mb-4.mb-lg-0.enlace-mover(style='',href="https://www.gub.uy/ministerio-economia-finanzas/institucional/normativa/norma-internacional-contabilidad-1-nic-1" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto(style='font-size: 14px;')
+              p.mb-0 Norma Internacional de Contabilidad Nº 1 (NIC 1)
+
 
 
 
