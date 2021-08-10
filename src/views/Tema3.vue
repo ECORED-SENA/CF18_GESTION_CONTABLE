@@ -693,9 +693,12 @@
     p.mb-4 Para obtener una utilidad de $10.000.000, la empresa debe vender 10.000 unidades.
     p.mb-5 Cálculo del punto de equilibrio en pesos:
     .row.mb-5(style='justify-content: center;')
-      .col-lg-6
+      .col-lg-5
         figure.mb-4
           img(src='@/assets/curso/tema3/formula16.svg', alt='cálculo ejemplo punto equilibrio en pesos', style='width:450px;').mx-auto
+      .col-lg-5
+        figure.mb-4
+          img(src='@/assets/curso/tema3/formula25.svg', alt='imagen ambiental', style='width:445px;').mx-auto
 
 
     p.mb-4 Para generar una utilidad de $10.000.000, al finalizar el período debe obtener ingresos por ventas de $400.000.000.
