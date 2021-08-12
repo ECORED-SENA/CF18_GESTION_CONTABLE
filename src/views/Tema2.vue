@@ -9,7 +9,7 @@
       h1 Indicadores financieros y de gestión
     
 
-    p.mb-4 Los indicadores permiten que la gestión de las organizaciones sea efectiva y eficiente, puesto que facilita a los integrantes mejorar su desempeño, permitiéndoles evaluar la gestión y mejorar los niveles de aprendizaje en la organización.
+    p.mb-4 Las empresas se encuentran en constantes cambios por las variaciones generadas en el mercado; por lo tanto, las actividades deben ser modificadas conforme con los requerimientos y necesidades. Asimismo, se realiza el  monitoreo y el seguimiento frecuentemente, por ello, para medir los resultados se diseñan e implementan indicadores que sean útiles y comprensibles para tomar decisiones que contribuyan al logro de los objetivos organizacionales.
 
 
     separador
@@ -28,7 +28,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo="Concepto")
-        .col-md-12.mb-4.mb-md-0.ms-5
+        .col-md-12.mb-4.mb-md-0.ps-lg-5
           p.mb-5 Un indicador es una medición cuantitativa o cualitativa, cuyo objetivo es verificar el cumplimiento de objetivos específicos. Los indicadores de gestión miden el cumplimiento de los objetivos estratégicos de la organización, teniendo en cuenta lo señalado en la planeación estratégica. Se enfocan en la medición del desempeño, eficiencia, eficacia, efectividad y productividad de la empresa, buscando la mejora continua de los procesos y procedimientos. Cabe resaltar que los indicadores se diseñan por las diferentes áreas de la organización de acuerdo con las actividades que se desean medir de forma cuantitativa o cualitativa (Roncancio, 2019).
           p.mb-4 #[strong Metodología para definir indicadores]
           p.mb-4 A continuación se describen los pasos a seguir: 
@@ -113,7 +113,7 @@
                   p.mb-0 Presenta información oportuna para la toma de decisiones.
       
       .row.justify-content-center(titulo="Clasificación")
-        .col-md-12.mb-4.mb-md-0.ms-5
+        .col-md-12.mb-4.mb-md-0.ps-lg-5
           p.mb-5 Para hablar de la clasificación es importante definir que se divide de acuerdo con su naturaleza y según su vigencia, ambas deben ser objeto de revisión.
           p.mb-4
             b De acuerdo con su naturaleza:
@@ -225,7 +225,6 @@
               figure
                 img(src="@/assets/curso/tema2/img10.svg", alt="Imagen ambiental" style='width:356px')
           
-
           .row(style='justify-content: center;')
             .col-lg-5.mb-4
               figure
@@ -243,7 +242,6 @@
                   i.fas.fa-chevron-right
                   p.mb-0 Confiabilidad de la maquinaria.
       
-
       .row.justify-content-center(titulo="Cálculo e interpretación de indicadores de gestión.")
         .col-md-11.mb-4.mb-md-0
           p.mb-5 A continuación, se presentan algunos ejemplos de los indicadores de gestión: 
@@ -357,6 +355,36 @@
             .col-lg-4.align-self-center
               figure.mb-2
                 img.mx-auto(src="@/assets/curso/tema2/img15.svg", alt="Imagen ambiental" style='width:260px;')
+          
+          .row.mb-4.justify-content-center
+            .col-lg-11
+              .h4.mb-4 Otros indicadores
+              p.ps-4.mb-5 De organización:
+              .row.justify-content-center.mb-2
+                .col-lg-10
+                  ul.lista-ul.mb-4
+                    li 
+                      i.fas.fa-chevron-right
+                      p.mb-0 #[strong Ejecución presupuestal:] mide el cumplimiento de la ejecución del presupuesto.
+                  figure.mb-4
+                    img.mx-auto(src="@/assets/curso/tema2/formula22.svg", alt="Ejecución presupuestal" style='width:700px;')
+              p.ps-4.mb-5 Indicadores de recursos humanos:
+              .row.justify-content-center
+                .col-lg-10
+                  ul.lista-ul.mb-5
+                    li 
+                      i.fas.fa-chevron-right
+                      p.mb-0 #[strong Productividad de mano de obra:] mide el rendimiento laboral de los trabajadores.
+                  figure.mb-5
+                    img.mx-auto(src="@/assets/curso/tema2/formula23.svg", alt="Productividad de mano de obra" style='width:700px;')
+              .row.justify-content-center
+                .col-lg-10
+                  ul.lista-ul.mb-4
+                    li 
+                      i.fas.fa-chevron-right
+                      p.mb-0 #[strong Ausentismo:] mide el cumplimiento del horario de los trabajadores.
+                  figure.mb-4
+                    img.mx-auto(src="@/assets/curso/tema2/formula24.svg", alt="Ausentismo" style='width:570px;')
 
 
     separador
@@ -648,7 +676,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo= "Indicadores de liquidez")
-        .col-md-12.mb-4.ms-5
+        .col-md-12.mb-4.ps-lg-5
           p.mb-4 Los indicadores de liquidez miden la capacidad de la empresa para asumir las obligaciones a corto plazo (un año). En el cálculo intervienen los activos y pasivos corrientes que se encuentran relacionados en el estado de situación financiera.
           p.mb-4 Los indicadores de liquidez más utilizados son los siguientes:
           h4.mb-4 Razón corriente
@@ -691,7 +719,7 @@
       
 
       .row.justify-content-center(titulo= "Indicadores de endeudamiento")
-        .col-md-12.mb-4.ms-5
+        .col-md-12.mb-4.ps-lg-5
           p.mb-5 Miden la capacidad que tiene la empresa para acceder a nuevos créditos y cumplir con los compromisos adquiridos.
           h4.mb-4 Razón de deuda
           p.mb-5 Mide el porcentaje de participación que tienen los acreedores frente a los activos totales de la empresa.
@@ -704,7 +732,7 @@
                 img(src='@/assets/curso/tema2/formula7.svg', alt='', style='width:406px').mx-auto
             .col-lg-5
               figure.mb-4
-                img(src='@/assets/curso/tema2/img21.png', alt='imagen ambiental', style='width:520px;').mx-auto
+                img(src='@/assets/curso/tema2/img21.svg', alt='imagen ambiental', style='width:520px;').mx-auto
           .cajon.color-acento-contenido.p-4.mb-5
             p.mb-0 #[strong Interpretación: ] los acreedores de la empresa Contable SAS tienen derecho del 57,09% de sus activos totales.
           
@@ -771,7 +799,7 @@
           .row.mb-0(style='justify-content: center;')
             .col-lg-5
               figure.mb-4
-                img(src='@/assets/curso/tema2/img26.png', alt='imagen ambiental', style='width:400px;').mx-auto
+                img(src='@/assets/curso/tema2/img26.svg', alt='imagen ambiental', style='width:400px;').mx-auto
             .col-lg-6
               figure.mb-4
                 img(src='@/assets/curso/tema2/formula12.svg', alt='Fórmula de cobertura de intereses', style='width:670px;').mx-auto
@@ -787,7 +815,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo= "Rotación de cartera")
-        .col-md-12.mb-4.ms-5
+        .col-md-12.mb-4.ps-lg-5
           p.mb-4 Este indicador muestra el número de veces en que la empresa convierte sus cuentas por cobrar en efectivo durante el período de un año.
           p.mb-4 Fórmula rotación de cartera:
           .row.justify-content-center 
@@ -812,6 +840,8 @@
           .row.justify-content-center 
             .col-lg-6
               figure.mb-5
+                img(src='@/assets/curso/tema2/formula25.svg', alt='Fórmula de rotación de cartera', style='width:670px;').mx-auto
+              figure.mb-5
                 img(src='@/assets/curso/tema2/formula14.svg', alt='Fórmula de rotación de cartera', style='width:420px;').mx-auto
           .cajon.color-acento-contenido.p-4.mb-4
             p.mb-0 #[strong Interpretación:] el resultado indica que la empresa Contable SAS convierte en efectivo las cuentas por cobrar-clientes cada 6,23 veces en el año.
@@ -829,7 +859,7 @@
       
       
       .row.justify-content-center(titulo= "Rotación de inventarios")
-        .col-md-12.mb-4.ms-5
+        .col-md-12.mb-4.ps-lg-5
           p.mb-4 Indica el número de veces en que los inventarios se venden durante el año, convirtiéndose en efectivo o en cuentas por cobrar a clientes.
           p.mb-4 Fórmula:
           .row.justify-content-center
@@ -840,21 +870,21 @@
             p.mb-0 #[strong Interpretación:] el inventario de la empresa Contable SAS rota 2,39 veces en el año, es decir, se convierte 2,39 veces por año en efectivo o en cuentas por cobrar, lo que corresponde a un período promedio de 152 días. Por lo tanto, la rotación es muy baja, la empresa debe implementar estrategias que permitan una rotación con mayor frecuencia.
       
       .row.justify-content-center(titulo= "Rotación de activos totales")
-        .col-md-12.mb-4.ms-5
+        .col-md-12.mb-4.ps-lg-5
           p.mb-4 Mide el número de veces que los ingresos por actividades ordinarias cubren los activos totales de la empresa.
           p.mb-4 Fórmula:
           .row.justify-content-center
             .col-lg-5
               figure.mb-5
-                img(src='@/assets/curso/tema2/img28.png', alt='imagen ambinetal', style='460px;').mx-auto
-            .col-lg-7
+                img(src='@/assets/curso/tema2/img28.svg', alt='imagen ambinetal', style='width:460px;').mx-auto
+            .col-lg-6
               figure.mb-5
-                img(src='@/assets/curso/tema2/formula17.svg', alt='formula Rotación de activos totales', style='').mx-auto
+                img(src='@/assets/curso/tema2/formula17.svg', alt='formula Rotación de activos totales', style='width:570px;').mx-auto
           .cajon.color-acento-contenido.p-4.mb-4
             p.mb-0 #[strong Interpretación:] los ingresos operacionales cubren 1,47 veces los activos totales de la empresa.
       
       .row.justify-content-center(titulo= "Rotación proveedores")
-        .col-md-12.mb-4.ms-5
+        .col-md-12.mb-4.ps-lg-5
           p.mb-4 Este indicador muestra el período en que se cancelan las cuentas por pagar a proveedores durante el año.
           .row.justify-content-center
             .col-lg-8
@@ -871,7 +901,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo= "Rentabilidad sobre ingresos operacionales")
-        .col-md-12.mb-4.ms-5
+        .col-md-12.mb-4.ps-lg-5
           p.mb-4 Indica el porcentaje de participación de la utilidad generada por los ingresos de actividades ordinarias.
           .row.justify-content-center
             .col-lg-8
@@ -884,7 +914,7 @@
       
       
       .row.justify-content-center(titulo= "Rentabilidad sobre el patrimonio")
-        .col-md-12.mb-4.ms-5
+        .col-md-12.mb-4.ps-lg-5
           p.mb-4 El indicador de rentabilidad sobre el patrimonio o denominada también rentabilidad financiera muestra la rentabilidad de la inversión realizada por los socios.
           p.mb-4 Fórmula :
           .row.justify-content-center
@@ -896,7 +926,7 @@
       
       
       .row.justify-content-center(titulo= "Rentabilidad de la utilidad bruta sobre ventas")
-        .col-md-12.mb-4.ms-5
+        .col-md-12.mb-4.ps-lg-5
           p.mb-4 Representa el porcentaje de participación de la utilidad bruta sobre las ventas generadas, es decir, sobre los ingresos por actividades ordinarias.
           p.mb-4 Fórmula :
           .row.justify-content-center

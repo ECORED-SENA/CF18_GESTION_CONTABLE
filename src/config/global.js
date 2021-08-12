@@ -268,6 +268,11 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Patricia Mantilla Galvis',
+        cargo: 'Instructora',
+        centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
+      },
+      {
         nombre: 'Maryuri Agudelo Franco',
         cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
@@ -319,12 +324,12 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      /*{
-        nombre: 'Nombre',
+      {
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {

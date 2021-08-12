@@ -347,15 +347,15 @@
       
       div(titulo="Pasivo")
         .row(style='justify-content:space-around')
-          .col-lg-11.mb-4
+          .col-lg-12.mb-4.ps-lg-5
             p.mb-5 Para calcular la participación en las cuentas del pasivo se analiza el concepto de obligaciones financieras equivalente a $2.193.035, el pasivo total sumado con el patrimonio da un valor de $23.763.474.
             .row.justify-content-center.mb-4
-              .col-lg-7
+              .col-lg-8
                 figure
-                  img(src='@/assets/curso/tema1/img15.svg', alt='Formula calculo de Pasivos').mx-auto
-              .col-lg-5.mb-2
+                  img(src='@/assets/curso/tema1/img15.svg', alt='Formula calculo de Pasivos', style='width:730px;').mx-auto
+              .col-lg-4.mb-2
                 figure
-                  img(src='@/assets/curso/tema1/img16.svg', alt='imagen ambiental').mx-auto
+                  img(src='@/assets/curso/tema1/img16.svg', alt='imagen ambiental', style='width:345px;').mx-auto
       
       div(titulo="Patrimonio")
         .row(style='justify-content:space-around')
@@ -479,14 +479,14 @@
         LineaTiempoD.color-acento-contenido.mb-5
           .row(numero="1" titulo="Variación absoluta")
             .col-lg-12
-              p.mb-4 para hallar la variación absoluta se toman los datos de dos períodos, restando el año actual y el año anterior, el cual se representa en valores monetarios. La fórmula aplicable es la siguiente:
+              p.mb-4 Para hallar la variación absoluta se toman los datos de dos períodos, restando el año actual y el año anterior, el cual se representa en valores monetarios. La fórmula aplicable es la siguiente:
             .col-lg-12
               figure
                 img(src='@/assets/curso/tema1/img25.svg', alt='Variación absoluta').mx-auto
 
           .row(numero="2" titulo="Variación relativa")
             .col-lg-12
-              p.mb-4 en el caso de la variación relativa se tiene en cuenta la variación absoluta (año actual – año anterior), dividido en el año anterior, cabe resaltar que se multiplica por 100 para obtener el porcentaje.
+              p.mb-4 En el caso de la variación relativa se tiene en cuenta la variación absoluta (año actual – año anterior), dividido en el año anterior, cabe resaltar que se multiplica por 100 para obtener el porcentaje.
             .col-lg-12
               figure
                 img(src='@/assets/curso/tema1/img26.svg', alt='Variación relativa').mx-auto
@@ -495,7 +495,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo="Procedimiento: estado de situación financiera")
-        .col-md-12.mb-4.mb-md-0.ms-5
+        .col-md-12.mb-4.mb-md-0.ps-lg-5
           .tabla-b.color-secundario.mb-5
             table
               thead
@@ -784,7 +784,7 @@
 
       
       .row.justify-content-center(titulo="Procedimiento: estado de resultados integral")
-        .col-md-12.mb-4.mb-md-0.ms-5
+        .col-md-12.mb-4.mb-md-0.ps-lg-5
           p.mb-4 #[strong Variación absoluta y relativa:]
           .tabla-b.color-secundario.mb-5
             table
