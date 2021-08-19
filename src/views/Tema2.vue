@@ -230,7 +230,7 @@
               figure
                 img.mx-auto(src="@/assets/curso/tema2/img11.svg", alt="Imagen ambiental" style='width:342px')
             .col-lg-6.align-self-center
-              p.mb-4 #[strong Indicadores del área de mantenimiento::]
+              p.mb-4 #[strong Indicadores del área de mantenimiento:]
               ul.lista-ul.mb-4
                 li 
                   i.fas.fa-chevron-right

@@ -19,7 +19,7 @@
     
     separador
     #t_3_1.titulo-segundo
-      .h2 3.1Valor Económico Agregado (EVA)
+      .h2 3.1 Valor Económico Agregado (EVA)
     
     .row.justify-content-center.mb-4
       .col-lg-8
